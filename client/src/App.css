@@ -1,0 +1,112 @@
+body {
+  margin-bottom: 100px !important;
+  color: #776c60;
+}
+
+/* =================================== */
+/* ============ Navigation =========== */
+/* =================================== */
+.navbar {
+  font-family: URW Chancery L, cursive;
+  font-weight: bold;
+  background-color: #c7d8c6;
+}
+
+.chat-app {
+  color: #776c60;
+  font-weight: bold;
+}
+
+.card-form {
+  opacity: 0.9;
+}
+
+/* nav bar */
+.nav-user-name {
+  pointer-events: none;
+}
+
+/* =================================== */
+/* ============ Chat message ========= */
+/* =================================== */
+/* Message */
+.message-head {
+  font-size: 20px;
+  font-weight: 600;
+  color: #626e60;
+}
+
+.message-body {
+  height: 200px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.sender {
+  color: #985e6d;
+  font-weight: bold;
+  font-size: 18px;
+  padding-right: 5px;
+  font-family: Times, Times New Roman, serif;
+}
+
+.message-time {
+  color: #a4a3a0;
+  font-size: 14px;
+  font-family: Times, Times New Roman, serif;
+}
+
+.message-text {
+  color: black;
+}
+
+.message-welcome {
+  font-weight: bold;
+  font-family: Times, Times New Roman, serif;
+}
+
+/* User list */
+.list-head {
+  font-weight: 600;
+  color: #626e60;
+}
+
+.list-body {
+  height: 180px;
+  overflow-y: scroll;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.list-items {
+  list-style-type: none;
+}
+
+/* =================================== */
+/* ============ Form errors ========== */
+/* =================================== */
+.error {
+  color: red;
+}
+
+/* =================================== */
+/* ============ Admin ================ */
+/* =================================== */
+/* Dashboard */
+.welcome-admin {
+  font-family: Times, Times New Roman, serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/* header */
+.text-header {
+  font-weight: bold;
+  font-family: Times, Times New Roman, serif;
+  color: #626e60;
+}
+
+/* rooms */
+.room-items {
+  padding-top: 20px;
+}
